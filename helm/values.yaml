@@ -2,7 +2,7 @@ deployments:
   tamatem-technical-assignment:
     containers:
       tamatem-technical-assignment:
-        image: "basharkhouri610/tamatem-technical-assignment:arm64" # Replace with your image or you can use this one tags available: (latest, amd64)or arm64
+        image: "basharkhouri610/tamatem-technical-assignment:latest" # Replace with your image or you can use this one tags available: (latest, amd64)or arm64
         imagePullPolicy: IfNotPresent
         resources:
           requests:
